@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/Task5/Task5.egg-info/PKG-INFO
+writing dependency_links to ../../build/Task5/Task5.egg-info/dependency_links.txt
+writing requirements to ../../build/Task5/Task5.egg-info/requires.txt
+writing top-level names to ../../build/Task5/Task5.egg-info/top_level.txt
+reading manifest file '../../build/Task5/Task5.egg-info/SOURCES.txt'
+writing manifest file '../../build/Task5/Task5.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/Task5/launch
+copying launch/display.launch.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/Task5/launch
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/Task5/urdf
+copying urdf/simple_bot.urdf -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/Task5/urdf
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/Task5/rviz
+copying rviz/display.rviz -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/Task5/rviz
+running install_egg_info
+removing '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/lib/python3.12/site-packages/Task5-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/Task5/Task5.egg-info to /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/lib/python3.12/site-packages/Task5-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task5/install.log'

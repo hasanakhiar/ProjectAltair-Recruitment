@@ -1,0 +1,4 @@
+source;share/Task5/hook/pythonpath.dsv
+source;share/Task5/hook/pythonpath.sh
+source;share/Task5/hook/ament_prefix_path.dsv
+source;share/Task5/hook/ament_prefix_path.sh

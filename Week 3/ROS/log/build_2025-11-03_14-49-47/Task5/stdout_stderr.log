@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/Task5/Task5.egg-info
+writing ../../build/Task5/Task5.egg-info/PKG-INFO
+writing dependency_links to ../../build/Task5/Task5.egg-info/dependency_links.txt
+writing requirements to ../../build/Task5/Task5.egg-info/requires.txt
+writing top-level names to ../../build/Task5/Task5.egg-info/top_level.txt
+writing manifest file '../../build/Task5/Task5.egg-info/SOURCES.txt'
+reading manifest file '../../build/Task5/Task5.egg-info/SOURCES.txt'
+writing manifest file '../../build/Task5/Task5.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task5/build
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task5/build/lib
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task5/build/lib/Task5
+copying Task5/__init__.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task5/build/lib/Task5
+running install
+running install_lib
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/lib/python3.12/site-packages/Task5
+copying /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task5/build/lib/Task5/__init__.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/lib/python3.12/site-packages/Task5
+byte-compiling /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/lib/python3.12/site-packages/Task5/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/ament_index
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/ament_index/resource_index
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/ament_index/resource_index/packages
+copying resource/Task5 -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/ament_index/resource_index/packages
+copying package.xml -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/Task5
+running install_egg_info
+Copying ../../build/Task5/Task5.egg-info to /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/lib/python3.12/site-packages/Task5-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task5/install.log'

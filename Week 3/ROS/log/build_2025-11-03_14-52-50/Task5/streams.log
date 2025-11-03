@@ -1,0 +1,25 @@
+[1.075s] Invoking command in '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/src/Task5': PYTHONPATH=/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Task5 build --build-base /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task5/build install --record /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task5/install.log --single-version-externally-managed install_data
+[1.420s] running egg_info
+[1.446s] writing ../../build/Task5/Task5.egg-info/PKG-INFO
+[1.446s] writing dependency_links to ../../build/Task5/Task5.egg-info/dependency_links.txt
+[1.446s] writing requirements to ../../build/Task5/Task5.egg-info/requires.txt
+[1.447s] writing top-level names to ../../build/Task5/Task5.egg-info/top_level.txt
+[1.497s] reading manifest file '../../build/Task5/Task5.egg-info/SOURCES.txt'
+[1.498s] writing manifest file '../../build/Task5/Task5.egg-info/SOURCES.txt'
+[1.498s] running build
+[1.498s] running build_py
+[1.499s] running install
+[1.505s] running install_lib
+[1.532s] running install_data
+[1.532s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/Task5/launch
+[1.532s] copying launch/display.launch.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/Task5/launch
+[1.533s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/Task5/urdf
+[1.533s] copying urdf/simple_bot.urdf -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/Task5/urdf
+[1.533s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/Task5/rviz
+[1.533s] copying rviz/display.rviz -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/share/Task5/rviz
+[1.533s] running install_egg_info
+[1.559s] removing '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/lib/python3.12/site-packages/Task5-0.0.0-py3.12.egg-info' (and everything under it)
+[1.559s] Copying ../../build/Task5/Task5.egg-info to /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/lib/python3.12/site-packages/Task5-0.0.0-py3.12.egg-info
+[1.560s] running install_scripts
+[1.723s] writing list of installed files to '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task5/install.log'
+[1.760s] Invoked command in '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/src/Task5' returned '0': PYTHONPATH=/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task5/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Task5 build --build-base /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task5/build install --record /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task5/install.log --single-version-externally-managed install_data

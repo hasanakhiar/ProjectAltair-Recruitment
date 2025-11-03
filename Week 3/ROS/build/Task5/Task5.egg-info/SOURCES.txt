@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/Task5/Task5.egg-info/PKG-INFO
+../../build/Task5/Task5.egg-info/SOURCES.txt
+../../build/Task5/Task5.egg-info/dependency_links.txt
+../../build/Task5/Task5.egg-info/requires.txt
+../../build/Task5/Task5.egg-info/top_level.txt
+../../build/Task5/Task5.egg-info/zip-safe
+Task5/__init__.py
+launch/display.launch.py
+resource/Task5
+rviz/display.rviz
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+urdf/simple_bot.urdf
