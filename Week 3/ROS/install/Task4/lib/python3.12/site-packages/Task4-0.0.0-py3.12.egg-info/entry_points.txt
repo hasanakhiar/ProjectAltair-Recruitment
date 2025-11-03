@@ -1,0 +1,3 @@
+[console_scripts]
+video_publisher = Task4.video_publisher:main
+video_subscriber = Task4.video_subscriber:main

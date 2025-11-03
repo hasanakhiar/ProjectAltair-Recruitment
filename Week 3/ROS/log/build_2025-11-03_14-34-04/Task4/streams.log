@@ -1,0 +1,41 @@
+[1.234s] Invoking command in '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/src/Task4': PYTHONPATH=/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Task4 build --build-base /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/build install --record /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/install.log --single-version-externally-managed install_data
+[1.579s] running egg_info
+[1.579s] creating ../../build/Task4/Task4.egg-info
+[1.604s] writing ../../build/Task4/Task4.egg-info/PKG-INFO
+[1.604s] writing dependency_links to ../../build/Task4/Task4.egg-info/dependency_links.txt
+[1.605s] writing entry points to ../../build/Task4/Task4.egg-info/entry_points.txt
+[1.605s] writing requirements to ../../build/Task4/Task4.egg-info/requires.txt
+[1.605s] writing top-level names to ../../build/Task4/Task4.egg-info/top_level.txt
+[1.605s] writing manifest file '../../build/Task4/Task4.egg-info/SOURCES.txt'
+[1.655s] reading manifest file '../../build/Task4/Task4.egg-info/SOURCES.txt'
+[1.656s] writing manifest file '../../build/Task4/Task4.egg-info/SOURCES.txt'
+[1.656s] running build
+[1.656s] running build_py
+[1.656s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/build
+[1.657s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/build/lib
+[1.657s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/build/lib/Task4
+[1.657s] copying Task4/video_subscriber.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/build/lib/Task4
+[1.657s] copying Task4/__init__.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/build/lib/Task4
+[1.657s] copying Task4/video_publisher.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/build/lib/Task4
+[1.658s] running install
+[1.664s] running install_lib
+[1.689s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/lib/python3.12/site-packages/Task4
+[1.689s] copying /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/build/lib/Task4/video_subscriber.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/lib/python3.12/site-packages/Task4
+[1.690s] copying /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/build/lib/Task4/__init__.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/lib/python3.12/site-packages/Task4
+[1.690s] copying /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/build/lib/Task4/video_publisher.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/lib/python3.12/site-packages/Task4
+[1.690s] byte-compiling /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/lib/python3.12/site-packages/Task4/video_subscriber.py to video_subscriber.cpython-312.pyc
+[1.691s] byte-compiling /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/lib/python3.12/site-packages/Task4/__init__.py to __init__.cpython-312.pyc
+[1.691s] byte-compiling /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/lib/python3.12/site-packages/Task4/video_publisher.py to video_publisher.cpython-312.pyc
+[1.691s] running install_data
+[1.692s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/share/ament_index
+[1.692s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/share/ament_index/resource_index
+[1.692s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/share/ament_index/resource_index/packages
+[1.692s] copying resource/Task4 -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/share/ament_index/resource_index/packages
+[1.692s] copying package.xml -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/share/Task4
+[1.693s] running install_egg_info
+[1.718s] Copying ../../build/Task4/Task4.egg-info to /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/lib/python3.12/site-packages/Task4-0.0.0-py3.12.egg-info
+[1.719s] running install_scripts
+[1.884s] Installing video_publisher script to /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/lib/Task4
+[1.884s] Installing video_subscriber script to /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/lib/Task4
+[1.884s] writing list of installed files to '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/install.log'
+[1.929s] Invoked command in '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/src/Task4' returned '0': PYTHONPATH=/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task4/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Task4 build --build-base /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/build install --record /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task4/install.log --single-version-externally-managed install_data

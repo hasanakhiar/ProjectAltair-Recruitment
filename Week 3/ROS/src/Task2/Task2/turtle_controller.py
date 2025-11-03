@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Twist  # Used for velocity commands
+from geometry_msgs.msg import Twist 
 import time
 import math
 import sys
@@ -13,7 +13,7 @@ class TurtleController(Node):
         self.get_logger().info('Turtle Controller Node Started. Ready to move!')
 
     def move_circle(self):
-        """Moves the turtle in a circle."""
+
         self.get_logger().info('Moving in a CIRCLE...')
         msg = Twist()
         msg.linear.x = 2.0  # Forward speed
@@ -61,17 +61,16 @@ class TurtleController(Node):
                 msg.linear.x = linear_speed
                 self.publisher_.publish(msg)
                 
-                # Slowly increase the linear speed to create the spiral
+                
                 linear_speed += 0.05
                 time.sleep(0.1)
                 
         except KeyboardInterrupt:
             # Stop the turtle when Ctrl+C is pressed
             self.get_logger().info('Spiral stopped.')
-            self.publisher_.publish(Twist()) # Send a stop message
+            self.publisher_.publish(Twist()) 
 
     def stop_moving(self):
-        """Publishes a zero-velocity Twist message to stop the turtle."""
         self.get_logger().info('Stopping...')
         self.publisher_.publish(Twist())
 
