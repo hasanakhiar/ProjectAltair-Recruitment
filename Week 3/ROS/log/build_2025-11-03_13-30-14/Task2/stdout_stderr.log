@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/Task2/Task2.egg-info
+writing ../../build/Task2/Task2.egg-info/PKG-INFO
+writing dependency_links to ../../build/Task2/Task2.egg-info/dependency_links.txt
+writing entry points to ../../build/Task2/Task2.egg-info/entry_points.txt
+writing requirements to ../../build/Task2/Task2.egg-info/requires.txt
+writing top-level names to ../../build/Task2/Task2.egg-info/top_level.txt
+writing manifest file '../../build/Task2/Task2.egg-info/SOURCES.txt'
+reading manifest file '../../build/Task2/Task2.egg-info/SOURCES.txt'
+writing manifest file '../../build/Task2/Task2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build/lib
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build/lib/Task2
+copying Task2/__init__.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build/lib/Task2
+copying Task2/turtle_controller.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build/lib/Task2
+running install
+running install_lib
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/python3.12/site-packages/Task2
+copying /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build/lib/Task2/__init__.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/python3.12/site-packages/Task2
+copying /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build/lib/Task2/turtle_controller.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/python3.12/site-packages/Task2
+byte-compiling /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/python3.12/site-packages/Task2/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/python3.12/site-packages/Task2/turtle_controller.py to turtle_controller.cpython-312.pyc
+running install_data
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/share/ament_index
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/share/ament_index/resource_index
+creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/share/ament_index/resource_index/packages
+copying resource/Task2 -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/share/ament_index/resource_index/packages
+copying package.xml -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/share/Task2
+running install_egg_info
+Copying ../../build/Task2/Task2.egg-info to /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/python3.12/site-packages/Task2-0.0.0-py3.12.egg-info
+running install_scripts
+Installing turtle_controller script to /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/Task2
+writing list of installed files to '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/install.log'

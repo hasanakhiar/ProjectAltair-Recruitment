@@ -1,0 +1,37 @@
+[1.156s] Invoking command in '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/src/Task2': PYTHONPATH=/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Task2 build --build-base /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build install --record /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/install.log --single-version-externally-managed install_data
+[1.482s] running egg_info
+[1.483s] creating ../../build/Task2/Task2.egg-info
+[1.508s] writing ../../build/Task2/Task2.egg-info/PKG-INFO
+[1.508s] writing dependency_links to ../../build/Task2/Task2.egg-info/dependency_links.txt
+[1.508s] writing entry points to ../../build/Task2/Task2.egg-info/entry_points.txt
+[1.509s] writing requirements to ../../build/Task2/Task2.egg-info/requires.txt
+[1.509s] writing top-level names to ../../build/Task2/Task2.egg-info/top_level.txt
+[1.509s] writing manifest file '../../build/Task2/Task2.egg-info/SOURCES.txt'
+[1.560s] reading manifest file '../../build/Task2/Task2.egg-info/SOURCES.txt'
+[1.561s] writing manifest file '../../build/Task2/Task2.egg-info/SOURCES.txt'
+[1.561s] running build
+[1.561s] running build_py
+[1.561s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build
+[1.561s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build/lib
+[1.562s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build/lib/Task2
+[1.562s] copying Task2/__init__.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build/lib/Task2
+[1.562s] copying Task2/turtle_controller.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build/lib/Task2
+[1.562s] running install
+[1.569s] running install_lib
+[1.595s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/python3.12/site-packages/Task2
+[1.595s] copying /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build/lib/Task2/__init__.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/python3.12/site-packages/Task2
+[1.595s] copying /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build/lib/Task2/turtle_controller.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/python3.12/site-packages/Task2
+[1.596s] byte-compiling /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/python3.12/site-packages/Task2/__init__.py to __init__.cpython-312.pyc
+[1.596s] byte-compiling /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/python3.12/site-packages/Task2/turtle_controller.py to turtle_controller.cpython-312.pyc
+[1.597s] running install_data
+[1.597s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/share/ament_index
+[1.598s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/share/ament_index/resource_index
+[1.598s] creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/share/ament_index/resource_index/packages
+[1.598s] copying resource/Task2 -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/share/ament_index/resource_index/packages
+[1.598s] copying package.xml -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/share/Task2
+[1.598s] running install_egg_info
+[1.624s] Copying ../../build/Task2/Task2.egg-info to /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/python3.12/site-packages/Task2-0.0.0-py3.12.egg-info
+[1.625s] running install_scripts
+[1.791s] Installing turtle_controller script to /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/Task2
+[1.791s] writing list of installed files to '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/install.log'
+[1.834s] Invoked command in '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/src/Task2' returned '0': PYTHONPATH=/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Task2 build --build-base /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/build install --record /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task2/install.log --single-version-externally-managed install_data
