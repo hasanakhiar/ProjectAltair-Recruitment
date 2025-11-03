@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000614] (Task1) JobQueued: {'identifier': 'Task1', 'dependencies': OrderedDict()}
+[0.000759] (Task1) JobStarted: {'identifier': 'Task1'}
+[0.099610] (-) TimerEvent: {}
+[0.199897] (-) TimerEvent: {}
+[0.302014] (-) TimerEvent: {}
+[0.402381] (-) TimerEvent: {}
+[0.502723] (-) TimerEvent: {}
+[0.603053] (-) TimerEvent: {}
+[0.703388] (-) TimerEvent: {}
+[0.803707] (-) TimerEvent: {}
+[0.904037] (-) TimerEvent: {}
+[1.004396] (-) TimerEvent: {}
+[1.055064] (Task1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/Task1', 'build', '--build-base', '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task1/build', 'install', '--record', '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task1/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/Task1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': 'en_US', 'USER': 'hasanakhiar', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hasanakhiar', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/hasanakhiar/.gtkrc:/home/hasanakhiar/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'bn_BD', 'SYSTEMD_EXEC_PID': '1530', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'INSIDE_NEMO_PYTHON': '', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hasanakhiar', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-plasmashell.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c1', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/hasanakhiar/.gtkrc-2.0:/home/hasanakhiar/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hasanakhiar/.spicetify', 'SESSION_MANAGER': 'local/akhiar-pc:@/tmp/.ICE-unix/1473,unix/akhiar-pc:/tmp/.ICE-unix/1473', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'bn_BD', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/301370e4_39da_4f04_b908_a7b691245ec5', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_wwwJWM', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'bn_BD', 'XDG_SESSION_DESKTOP': 'plasma', 'XAUTHORITY': '/home/hasanakhiar/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.287', 'SSH_AUTH_SOCK': '/run/user/1000/gnupg/S.gpg-agent.ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/hasanakhiar', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'bn_BD', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'plasma', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'bn_BD', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'bn_BD', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task1', 'XDG_CONFIG_DIRS': '/home/hasanakhiar/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/plasma:/home/hasanakhiar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'bn_BD', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.104485] (-) TimerEvent: {}
+[1.204761] (-) TimerEvent: {}
+[1.305043] (-) TimerEvent: {}
+[1.388187] (Task1) StdoutLine: {'line': b'running egg_info\n'}
+[1.389504] (Task1) StdoutLine: {'line': b'creating ../build/Task1/Task1.egg-info\n'}
+[1.405212] (-) TimerEvent: {}
+[1.413789] (Task1) StdoutLine: {'line': b'writing ../build/Task1/Task1.egg-info/PKG-INFO\n'}
+[1.414071] (Task1) StdoutLine: {'line': b'writing dependency_links to ../build/Task1/Task1.egg-info/dependency_links.txt\n'}
+[1.414287] (Task1) StdoutLine: {'line': b'writing entry points to ../build/Task1/Task1.egg-info/entry_points.txt\n'}
+[1.414472] (Task1) StdoutLine: {'line': b'writing requirements to ../build/Task1/Task1.egg-info/requires.txt\n'}
+[1.414653] (Task1) StdoutLine: {'line': b'writing top-level names to ../build/Task1/Task1.egg-info/top_level.txt\n'}
+[1.414834] (Task1) StdoutLine: {'line': b"writing manifest file '../build/Task1/Task1.egg-info/SOURCES.txt'\n"}
+[1.465654] (Task1) StdoutLine: {'line': b"reading manifest file '../build/Task1/Task1.egg-info/SOURCES.txt'\n"}
+[1.466367] (Task1) StdoutLine: {'line': b"writing manifest file '../build/Task1/Task1.egg-info/SOURCES.txt'\n"}
+[1.466756] (Task1) StdoutLine: {'line': b'running build\n'}
+[1.467088] (Task1) StdoutLine: {'line': b'running build_py\n'}
+[1.467359] (Task1) StdoutLine: {'line': b'creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task1/build\n'}
+[1.467599] (Task1) StdoutLine: {'line': b'creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task1/build/lib\n'}
+[1.467824] (Task1) StdoutLine: {'line': b'creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task1/build/lib/Task1\n'}
+[1.468024] (Task1) StdoutLine: {'line': b'copying Task1/subscriber.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task1/build/lib/Task1\n'}
+[1.468252] (Task1) StdoutLine: {'line': b'copying Task1/__init__.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task1/build/lib/Task1\n'}
+[1.468461] (Task1) StdoutLine: {'line': b'copying Task1/publisher.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task1/build/lib/Task1\n'}
+[1.468658] (Task1) StdoutLine: {'line': b'running install\n'}
+[1.474867] (Task1) StdoutLine: {'line': b'running install_lib\n'}
+[1.500430] (Task1) StdoutLine: {'line': b'creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/lib/python3.12/site-packages/Task1\n'}
+[1.500842] (Task1) StdoutLine: {'line': b'copying /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task1/build/lib/Task1/subscriber.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/lib/python3.12/site-packages/Task1\n'}
+[1.501051] (Task1) StdoutLine: {'line': b'copying /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task1/build/lib/Task1/__init__.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/lib/python3.12/site-packages/Task1\n'}
+[1.501313] (Task1) StdoutLine: {'line': b'copying /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task1/build/lib/Task1/publisher.py -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/lib/python3.12/site-packages/Task1\n'}
+[1.501528] (Task1) StdoutLine: {'line': b'byte-compiling /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/lib/python3.12/site-packages/Task1/subscriber.py to subscriber.cpython-312.pyc\n'}
+[1.501858] (Task1) StdoutLine: {'line': b'byte-compiling /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/lib/python3.12/site-packages/Task1/__init__.py to __init__.cpython-312.pyc\n'}
+[1.502129] (Task1) StdoutLine: {'line': b'byte-compiling /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/lib/python3.12/site-packages/Task1/publisher.py to publisher.cpython-312.pyc\n'}
+[1.502549] (Task1) StdoutLine: {'line': b'running install_data\n'}
+[1.502812] (Task1) StdoutLine: {'line': b'creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/share/ament_index\n'}
+[1.503098] (Task1) StdoutLine: {'line': b'creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/share/ament_index/resource_index\n'}
+[1.503366] (Task1) StdoutLine: {'line': b'creating /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/share/ament_index/resource_index/packages\n'}
+[1.503571] (Task1) StdoutLine: {'line': b'copying resource/Task1 -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/share/ament_index/resource_index/packages\n'}
+[1.503787] (Task1) StdoutLine: {'line': b'copying package.xml -> /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/share/Task1\n'}
+[1.503988] (Task1) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.505287] (-) TimerEvent: {}
+[1.529861] (Task1) StdoutLine: {'line': b'Copying ../build/Task1/Task1.egg-info to /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/lib/python3.12/site-packages/Task1-0.0.0-py3.12.egg-info\n'}
+[1.530700] (Task1) StdoutLine: {'line': b'running install_scripts\n'}
+[1.605399] (-) TimerEvent: {}
+[1.693408] (Task1) StdoutLine: {'line': b'Installing publisher script to /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/lib/Task1\n'}
+[1.693759] (Task1) StdoutLine: {'line': b'Installing subscriber script to /home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/install/Task1/lib/Task1\n'}
+[1.694004] (Task1) StdoutLine: {'line': b"writing list of installed files to '/home/hasanakhiar/Codes/ProjectAltair-Recruitment/Week 3/ROS/build/Task1/install.log'\n"}
+[1.705518] (-) TimerEvent: {}
+[1.731823] (Task1) CommandEnded: {'returncode': 0}
+[1.740367] (Task1) JobEnded: {'identifier': 'Task1', 'rc': 0}
+[1.741525] (-) EventReactorShutdown: {}
